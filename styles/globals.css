@@ -4,10 +4,14 @@ body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
-  color: inherit;
+  color: dodgerblue;
   text-decoration: none;
 }
 
@@ -35,4 +39,8 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+div, section {
+  border: 1px solid grey;
+  text-align: center;
 }
